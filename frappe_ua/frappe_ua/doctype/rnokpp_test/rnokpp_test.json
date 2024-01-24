@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-24 00:41:27.324132",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "rnokpp",
+  "sex"
+ ],
+ "fields": [
+  {
+   "fieldname": "rnokpp",
+   "fieldtype": "Data",
+   "label": "\u0420\u041d\u041e\u041a\u041f\u041f"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Data",
+   "label": "\u0421\u0442\u0430\u0442\u044c"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-24 00:48:09.384904",
+ "modified_by": "Administrator",
+ "module": "Frappe Ua",
+ "name": "rnokpp-test",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-19 23:28:56.285726",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "\u043f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f_\u043d\u0430_json"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u043f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f_\u043d\u0430_json",
+   "fieldtype": "Data",
+   "label": "\u041f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f \u043d\u0430 JSON"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-01-20 00:22:22.496466",
+ "modified_by": "Administrator",
+ "module": "KATOTTG",
+ "name": "Katottg Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
