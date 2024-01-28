@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestKatottgItem(FrappeTestCase):
+class TestKATOTTGEntityCategory(FrappeTestCase):
 	pass

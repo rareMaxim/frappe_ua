@@ -1,20 +1,23 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
- "creation": "2024-01-20 00:22:53.573361",
+ "creation": "2024-01-25 22:00:51.695610",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_zikz",
+  "section_break_95dw",
+  "title",
+  "is_group",
+  "tab_2_tab",
   "lft",
   "rgt",
-  "is_group",
   "old_parent",
-  "parent_katottg_item"
+  "parent_katottg_entity"
  ],
  "fields": [
   {
-   "fieldname": "section_break_zikz",
+   "fieldname": "section_break_95dw",
    "fieldtype": "Section Break"
   },
   {
@@ -34,32 +37,46 @@
    "read_only": 1
   },
   {
+   "default": "0",
    "fieldname": "is_group",
    "fieldtype": "Check",
-   "label": "Is Group"
+   "label": "\u0413\u0440\u0443\u043f\u043e\u0432\u0438\u0439 \u0432\u0443\u0437\u043e\u043b"
   },
   {
    "fieldname": "old_parent",
    "fieldtype": "Link",
    "label": "Old Parent",
-   "options": "Katottg Item"
+   "options": "KATOTTG Entity"
   },
   {
-   "fieldname": "parent_katottg_item",
+   "fieldname": "parent_katottg_entity",
    "fieldtype": "Link",
    "ignore_user_permissions": 1,
-   "label": "Parent Katottg Item",
-   "options": "Katottg Item"
+   "label": "Parent KATOTTG Entity",
+   "options": "KATOTTG Entity"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u041d\u0430\u0437\u0432\u0430",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u0456 \u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2024-01-20 00:22:53.573361",
+ "modified": "2024-01-25 23:21:57.271059",
  "modified_by": "Administrator",
  "module": "KATOTTG",
- "name": "Katottg Item",
- "nsm_parent_field": "parent_katottg_item",
+ "name": "KATOTTG Entity",
+ "nsm_parent_field": "parent_katottg_entity",
  "owner": "Administrator",
  "permissions": [
   {
@@ -75,7 +92,10 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "title"
 }

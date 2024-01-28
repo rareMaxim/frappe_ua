@@ -5,19 +5,27 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "\u043f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f_\u043d\u0430_json"
+  "file_doc",
+  "run_import"
  ],
  "fields": [
   {
-   "fieldname": "\u043f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f_\u043d\u0430_json",
-   "fieldtype": "Data",
-   "label": "\u041f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f \u043d\u0430 JSON"
+   "description": "\u0417\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0443\u0432\u0430\u0442\u0438 \u0437 \u043f\u043e\u0440\u0442\u0430\u043b\u0443 rada.gov.ua!",
+   "documentation_url": "https://zakon.rada.gov.ua/rada/show/v0290914-20#n9",
+   "fieldname": "file_doc",
+   "fieldtype": "Attach",
+   "label": "\u041a\u043e\u0434\u0438\u0444\u0456\u043a\u0430\u0442\u043e\u0440 "
+  },
+  {
+   "fieldname": "run_import",
+   "fieldtype": "Button",
+   "label": "Test"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-01-20 00:22:22.496466",
+ "modified": "2024-01-25 23:20:38.746323",
  "modified_by": "Administrator",
  "module": "KATOTTG",
  "name": "Katottg Settings",

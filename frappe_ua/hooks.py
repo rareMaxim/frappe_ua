@@ -4,6 +4,7 @@ app_publisher = "Maxim Sysoev"
 app_description = "Українська локалізація для Frappe Framework"
 app_email = "maks4a@gmail.com"
 app_license = "mit"
+export_python_type_annotations = True
 # required_apps = []
 
 # Includes in <head>
