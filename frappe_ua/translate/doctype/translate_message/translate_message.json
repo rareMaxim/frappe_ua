@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-23 18:43:41.264004",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "column_break_irlg",
+  "string",
+  "column_break_izbu",
+  "context",
+  "section_break_esrn",
+  "auto_comments",
+  "column_break_mles",
+  "user_comments",
+  "section_break_eudu",
+  "lineno",
+  "locations"
+ ],
+ "fields": [
+  {
+   "fieldname": "string",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "String"
+  },
+  {
+   "fieldname": "context",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Context"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "fieldname": "column_break_irlg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_izbu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_esrn",
+   "fieldtype": "Section Break",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "lineno",
+   "fieldtype": "Int",
+   "label": "lineno",
+   "read_only": 1
+  },
+  {
+   "fieldname": "locations",
+   "fieldtype": "Small Text",
+   "label": "locations",
+   "read_only": 1
+  },
+  {
+   "fieldname": "user_comments",
+   "fieldtype": "Small Text",
+   "label": "user_comments",
+   "read_only": 1
+  },
+  {
+   "fieldname": "auto_comments",
+   "fieldtype": "Small Text",
+   "label": "auto_comments",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_mles",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_eudu",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "hide_toolbar": 1,
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "is_virtual": 1,
+ "links": [],
+ "modified": "2024-02-24 22:15:44.321927",
+ "modified_by": "Administrator",
+ "module": "Translate",
+ "name": "Translate Message",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-23 10:12:57.861221",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "general_section",
+  "target_app",
+  "column_break_vvrf",
+  "language",
+  "column_break_tnxy",
+  "test",
+  "section_break_mqnv",
+  "btn_generate_pot",
+  "step_2_section",
+  "btn_new_po",
+  "btn_update_po",
+  "btn_csv_to_po",
+  "column_break_ilzt",
+  "select_show_po_locales",
+  "step_3_section",
+  "btn_compile_translations"
+ ],
+ "fields": [
+  {
+   "fieldname": "language",
+   "fieldtype": "Link",
+   "label": "Language",
+   "options": "Language"
+  },
+  {
+   "fieldname": "column_break_vvrf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_mqnv",
+   "fieldtype": "Section Break",
+   "label": "Step 1"
+  },
+  {
+   "fieldname": "test",
+   "fieldtype": "Button",
+   "label": "test"
+  },
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "btn_generate_pot",
+   "fieldtype": "Button",
+   "label": "Generate main.pot file"
+  },
+  {
+   "description": "if empty then used all apps",
+   "fieldname": "target_app",
+   "fieldtype": "Select",
+   "label": "Application for translate"
+  },
+  {
+   "description": "from app/translations/{lang}.csv",
+   "fieldname": "btn_csv_to_po",
+   "fieldtype": "Button",
+   "label": "Migrate .csv to .po"
+  },
+  {
+   "fieldname": "step_2_section",
+   "fieldtype": "Section Break",
+   "label": "Step 2"
+  },
+  {
+   "fieldname": "column_break_tnxy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "btn_new_po",
+   "fieldtype": "Button",
+   "label": "New .po file"
+  },
+  {
+   "fieldname": "select_show_po_locales",
+   "fieldtype": "Select",
+   "label": "Avaible .po locales"
+  },
+  {
+   "fieldname": "step_3_section",
+   "fieldtype": "Section Break",
+   "label": "Step 3"
+  },
+  {
+   "fieldname": "btn_compile_translations",
+   "fieldtype": "Button",
+   "label": "Compile Translation"
+  },
+  {
+   "fieldname": "column_break_ilzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "btn_update_po",
+   "fieldtype": "Button",
+   "label": "Update .po file"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-23 20:48:36.198030",
+ "modified_by": "Administrator",
+ "module": "Translate",
+ "name": "Translate Wizard",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
